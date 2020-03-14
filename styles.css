@@ -1,0 +1,101 @@
+* {
+  font-family: 'Shadows Into Light', cursive;
+}
+
+body {
+  text-align: center;
+  margin: auto;
+  max-width: 900px;
+}
+
+h1 {
+  font-size: 4rem;
+  margin-bottom: 1rem;
+}
+
+
+div {
+  font-size: 2.4rem;
+}
+
+button {
+  background: transparent;
+  border: 1px solid black;
+  font-size: 1rem;
+  padding: 1rem 3rem;
+  margin: 1.6rem 0;
+  outline: none;
+}
+
+button:hover {
+  border: 1px solid black;
+  cursor: pointer;
+  transition: ease .2s;
+}
+
+
+
+/* Color Sytles for Quotes */
+.blue {
+  background: linear-gradient(90deg, #1CB5E0 0%, #000851 100%);
+}
+
+.red {
+  background: linear-gradient(90deg, #d53369 0%, #daae51 100%);
+}
+
+.purple {
+  background: linear-gradient(90deg, #efd5ff 0%, #515ada 100%);
+}
+
+.gold {
+  background: linear-gradient(90deg, #fcff9e 0%, #c67700 100%);
+}
+
+.green {
+  background: linear-gradient(90deg, #f8ff00 0%, #3ad59f 100%);
+}
+
+.deepgreen {
+  background: linear-gradient(90deg, #9ebd13 0%, #008552 100%);
+}
+
+@media screen and (max-width: 1000px) {
+  h1 {
+    font-size: 4rem;
+    margin-bottom: 0;
+  }
+
+  #quote-display {
+    font-size: 2rem;
+    padding: 2rem;
+    margin: 0;
+  }
+
+  button {
+    font-size: 1rem;
+    margin: 0;
+  }
+
+}
+
+@media screen and (max-width: 624px) {
+  h1 {
+    font-size: 2.6rem;
+  }
+
+  #quote-display {
+    font-size: 2rem;
+  }
+
+  #quote-display {
+    padding: 2rem;
+    font-size: 2rem;
+  }
+
+  button {
+    font-size: 1rem;
+    margin-top: 0;
+    padding: 1rem;
+  }
+}
